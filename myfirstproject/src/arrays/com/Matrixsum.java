@@ -1,0 +1,23 @@
+package arrays.com;
+
+import java.util.Scanner;
+
+public class Matrixsum {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int[][]a=new int[3][3];
+		System.out.println("enter the 9 elements");
+		int sum=0;
+for(int i=0;i<3;i++) {
+	for(int j=0;j<3;j++) {
+		a[i][j]=sc.nextInt();
+		sum=sum+a[i][j];
+		
+	}
+}
+	System.out.println("sum:"+sum);
+
+	}
+
+}
