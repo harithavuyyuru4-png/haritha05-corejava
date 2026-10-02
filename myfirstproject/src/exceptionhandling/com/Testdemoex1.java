@@ -12,9 +12,12 @@ public class Testdemoex1 {
 	System.out.println("enter the second number");
 	int n2=sc.nextInt();
 	try {
+		System.out.println("in try$$$$$$");
 		System.out.println(n1/n2);
 	}catch(Exception e) {
+		System.out.println("in catch$$$$$");
 	e.printStackTrace();
+	
 	System.out.println("main method ended");
 	System.out.println("main method ended");
 	System.out.println("main method ended");

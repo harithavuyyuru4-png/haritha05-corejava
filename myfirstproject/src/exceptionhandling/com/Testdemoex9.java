@@ -1,7 +1,6 @@
 package exceptionhandling.com;
 
 import java.util.Scanner;
-import java.util.InputMismatchException;
 public class Testdemoex9 {
 
 	public static void main(String[] args) {
